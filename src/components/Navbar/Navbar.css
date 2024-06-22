@@ -1,0 +1,16 @@
+.navbar {
+  /* ... (desktop styles) */
+}
+
+.nav-links {
+  /* ... (desktop styles) */
+}
+
+.menu-toggle {
+  /* ... (mobile styles - hide on desktop) */
+}
+
+/* Mobile menu styles (active when menu-toggle is clicked) */
+.nav-links.open {
+  /* ... */
+}
