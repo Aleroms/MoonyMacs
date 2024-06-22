@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
@@ -7,7 +7,19 @@ import Logo from "../Logo/Logo";
 
 const Navbar: React.FC = () => {
   const [showNavbar, setShowNavbar] = useState(false);
+  const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setViewportWidth(window.innerWidth);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const calculateLogoWidth = () => {
+    return viewportWidth < 600 ? 70 : viewportWidth < 900 ? 80 : 100;
+  };
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
   };
@@ -16,7 +28,9 @@ const Navbar: React.FC = () => {
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-          <Logo width={100} />
+          <NavLink to="/">
+            <Logo width={calculateLogoWidth()} />
+          </NavLink>
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
           <Hamburger />
@@ -27,13 +41,13 @@ const Navbar: React.FC = () => {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/blogs">Blogs</NavLink>
-            </li>
-            <li>
-              <NavLink to="/projects">Projects</NavLink>
-            </li>
-            <li>
               <NavLink to="/about">About</NavLink>
+            </li>
+            <li>
+              <NavLink to="/gallery">Gallery</NavLink>
+            </li>
+            <li>
+              <NavLink to="/menu">Menu</NavLink>
             </li>
             <li>
               <NavLink to="/contact">Contact</NavLink>

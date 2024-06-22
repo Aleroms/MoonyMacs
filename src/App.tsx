@@ -6,6 +6,8 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Navbar from "./components/Navbar/Navbar";
 
+import "./App.css";
+
 const App: React.FC = () => {
   return (
     <>
