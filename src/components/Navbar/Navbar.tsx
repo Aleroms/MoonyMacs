@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="navbar">
-      <div className="container">
+      <div className="navbar-container">
         <div className="logo">
           <NavLink to="/">
             <Logo width={70} />

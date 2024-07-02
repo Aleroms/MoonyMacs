@@ -1,0 +1,12 @@
+.banner {
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.banner-home {
+  background-image: url("/banner/banner-home-desktop.jpg");
+  background-position: center;
+  background-size: cover;
+}
