@@ -1,9 +1,14 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
-// Your Components
+// routes
 import Home from "./views/Home/Home";
 import About from "./views/About/About";
+import Contact from "./views/Contact/Contact";
+import Gallery from "./views/Gallery/Gallery";
+import Menu from "./views/Menu/Menu";
+
+//components
 import Navbar from "./components/Navbar/Navbar";
 
 import "./App.css";
@@ -15,6 +20,9 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/menu" element={<Menu />} />
       </Routes>
     </>
   );

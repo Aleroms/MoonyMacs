@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Elephant';
+    src: url('./Elephant.TTF') format('truetype');
+    font-weight: normal;
+    font-style:italic;
+}

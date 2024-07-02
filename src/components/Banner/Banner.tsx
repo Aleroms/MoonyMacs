@@ -6,14 +6,11 @@ import Button from "../Button/Button";
 import "./Banner.css";
 
 interface BannerProps {
-  page: "home" | "about" | "contact";
+  page: "home" | "about" | "contact" | "gallery" | "menu";
   title?: string;
-  buttonLabel?: string;
-  onButtonClick?: () => void;
-  content?: React.ReactNode;
 }
 
-const Banner: React.FC<BannerProps> = ({ page, title, content }) => {
+const Banner: React.FC<BannerProps> = ({ page, title }) => {
   const [logoWidth, setLogoWidth] = useState(500);
 
   const updateLogoWidth = () => {
@@ -47,18 +44,15 @@ const Banner: React.FC<BannerProps> = ({ page, title, content }) => {
           <Button label="view our menu" onClick={buttonHandler} />
         </>
       )}
-      {(page === "about" || page === "contact") && (
+      {(page === "about" ||
+        page === "contact" ||
+        page === "gallery" ||
+        page === "menu") && (
         <>
           <h1>{title}</h1>
-          <div className="banner-content">{content}</div>
         </>
       )}
     </div>
   );
 };
 export default Banner;
-// return (
-//     <div className="banner-container">
-//       <Logo width={500} />
-//     </div>
-//   );

@@ -1,15 +1,12 @@
 import React from "react";
-
 import Banner from "../../components/Banner/Banner";
 
-import "./About.css";
-
-const About: React.FC = () => {
+const Contact: React.FC = () => {
   return (
     <main>
-      <Banner page="about" title="About"/>
+      <Banner page="contact" title="Contact"/>
     </main>
   );
 };
 
-export default About;
+export default Contact;
