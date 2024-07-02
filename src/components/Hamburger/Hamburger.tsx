@@ -1,5 +1,8 @@
 import React from "react";
 
+const themeBlue = "#0083B0";
+const themePurple = "#8E2DE2";
+
 const Hamburger: React.FC = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +18,7 @@ const Hamburger: React.FC = () => (
         height="4"
         rx="2"
         transform="translate(304 47)"
-        fill="#574c4c"
+        fill={themeBlue}
       />
       <rect
         id="Rectangle_5"
@@ -24,7 +27,7 @@ const Hamburger: React.FC = () => (
         height="4"
         rx="2"
         transform="translate(304 67)"
-        fill="#574c4c"
+        fill={themePurple}
       />
       <rect
         id="Rectangle_4"
@@ -33,7 +36,7 @@ const Hamburger: React.FC = () => (
         height="4"
         rx="2"
         transform="translate(294 57)"
-        fill="#574c4c"
+        fill={themeBlue}
       />
     </g>
   </svg>

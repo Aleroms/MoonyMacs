@@ -7,19 +7,7 @@ import Logo from "../Logo/Logo";
 
 const Navbar: React.FC = () => {
   const [showNavbar, setShowNavbar] = useState(false);
-  const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
 
-  useEffect(() => {
-    const handleResize = () => {
-      setViewportWidth(window.innerWidth);
-    };
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  const calculateLogoWidth = () => {
-    return viewportWidth < 600 ? 70 : viewportWidth < 900 ? 80 : 100;
-  };
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
   };
@@ -29,7 +17,7 @@ const Navbar: React.FC = () => {
       <div className="container">
         <div className="logo">
           <NavLink to="/">
-            <Logo width={calculateLogoWidth()} />
+            <Logo width={70} />
           </NavLink>
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
