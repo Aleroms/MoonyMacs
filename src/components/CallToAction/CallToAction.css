@@ -1,0 +1,18 @@
+.call-to-action {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 7rem 2rem;
+  gap: 200px;
+}
+.cta-item {
+  max-width: 500px;
+}
+
+@media (max-width: 900px) {
+  .call-to-action {
+    flex-direction: column-reverse;
+    gap: 100px;
+  }
+}

@@ -4,6 +4,7 @@ import "./Navbar.css";
 
 import Hamburger from "../Hamburger/Hamburger";
 import Logo from "../Logo/Logo";
+import NavbarLinks from "./NavbarLinks";
 
 const Navbar: React.FC = () => {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -24,23 +25,7 @@ const Navbar: React.FC = () => {
           <Hamburger />
         </div>
         <div className={`nav-elements  ${showNavbar && "active"}`}>
-          <ul>
-            <li>
-              <NavLink to="/">Home</NavLink>
-            </li>
-            <li>
-              <NavLink to="/about">About</NavLink>
-            </li>
-            <li>
-              <NavLink to="/gallery">Gallery</NavLink>
-            </li>
-            <li>
-              <NavLink to="/menu">Menu</NavLink>
-            </li>
-            <li>
-              <NavLink to="/contact">Contact</NavLink>
-            </li>
-          </ul>
+          <NavbarLinks/>
         </div>
       </div>
     </nav>

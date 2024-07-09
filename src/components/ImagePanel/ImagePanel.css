@@ -1,0 +1,23 @@
+.image-panel {
+    margin: 8.625rem 3.625rem;
+}
+
+.image-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+@media(max-width: 900px){
+    .image-panel{
+        margin: 7rem 1rem;
+    }
+    .image-row{
+        row-gap: 40px;
+    }
+    /* remove this and favor it for responsive width  */
+    .image-row img{
+        width: 90px;
+    }
+}

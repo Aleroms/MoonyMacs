@@ -12,6 +12,7 @@ import Menu from "./views/Menu/Menu";
 import Navbar from "./components/Navbar/Navbar";
 
 import "./App.css";
+import Footer from "./components/Footer/Footer";
 
 const App: React.FC = () => {
   return (
@@ -24,6 +25,7 @@ const App: React.FC = () => {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/menu" element={<Menu />} />
       </Routes>
+      <Footer />
     </>
   );
 };
