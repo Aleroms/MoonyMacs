@@ -8,9 +8,23 @@ footer {
   color: white;
 }
 
+.footer-item {
+  flex: 1;
+  min-height: 275px;
+}
 .footer-item:not(:last-child) {
-  /* margin-right: 1rem; */
   border-right: 2px solid #444;
+}
+
+.footer-item ul {
+  list-style: none;
+}
+.footer-item ul li {
+  margin-top: 1.625rem;
+}
+.footer-item ul li a {
+  text-decoration: none;
+  color: white;
 }
 
 .footer-stack {
@@ -24,4 +38,21 @@ footer {
 .stack-item {
   text-align: center;
   margin: 0 15px;
+  min-width: 200px;
+}
+
+.stack-item:not(:first-child) {
+  border-top: 2px solid #444;
+  padding: 1rem;
+}
+
+.footer-credits {
+  color: white;
+  padding: 3rem 2rem 2rem;
+  background-color: #222;
+}
+.footer-credits a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
 }
