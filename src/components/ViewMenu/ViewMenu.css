@@ -1,0 +1,18 @@
+.menu-cta {
+  padding: 7rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.menu-cta-item {
+  padding: 1rem;
+  max-width: 420px;
+}
+@media(max-width: 900px){
+    .menu-cta {
+        flex-direction: column;
+        gap: 3rem;
+        padding: 0;
+        margin: 7rem 3rem;
+    }
+}
