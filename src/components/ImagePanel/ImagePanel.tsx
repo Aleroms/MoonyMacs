@@ -2,6 +2,7 @@
 import React from "react";
 import "./ImagePanel.css";
 
+// EVENTUALLY HAVE IMAGE PATHS BE PASSED IN PROPS AND RENDER IT USING MAP
 const ImagePanel: React.FC = () => {
   const width = 200;
   //   const [windowWidth, setWindowWidth] = useState(40);
