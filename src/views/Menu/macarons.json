@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "name": "Brownie Batter",
+    "description": "Rich and fudgy brownie batter flavor inside a delicate macaron shell.",
+    "image": {
+      "path": "gallery/test.png",
+      "alt": "Brownie Batter Macaron"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Birthday Cake",
+    "description": "A celebratory blend of vanilla and sprinkles, reminiscent of classic birthday cake.",
+    "image": {
+      "path": "macarons/orange-mac.png",
+      "alt": "Birthday Cake Macaron"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Biscoff Buttercream",
+    "description": "Smooth buttercream infused with the distinct flavor of Biscoff cookies.",
+    "image": {
+      "path": "macarons/orange-mac.png",
+      "alt": "Biscoff Buttercream Macaron"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Passionfruit Infused White Chocolate",
+    "description": "Tangy passionfruit meets creamy white chocolate in this exotic macaron.",
+    "image": {
+      "path": "macarons/orange-mac.png",
+      "alt": "Passionfruit Infused White Chocolate Macaron"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Dulce de Leche",
+    "description": "A sweet and creamy caramel delight with rich dulce de leche flavor.",
+    "image": {
+      "path": "macarons/orange-mac.png",
+      "alt": "Dulce de Leche Macaron"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Cookies and Cream",
+    "description": "Classic cookies and cream flavor with a delightful crunch.",
+    "image": {
+      "path": "macarons/orange-mac.png",
+      "alt": "Cookies and Cream Macaron"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Churros",
+    "description": "Cinnamon-sugar churro flavor packed into a delicate macaron.",
+    "image": {
+      "path": "macarons/orange-mac.png",
+      "alt": "Churros Macaron"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Snickerdoodle",
+    "description": "A classic snickerdoodle cookie flavor with a hint of cinnamon.",
+    "image": {
+      "path": "macarons/orange-mac.png",
+      "alt": "Snickerdoodle Macaron"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Cream Cheese Frosting and Jam",
+    "description": "Smooth cream cheese frosting paired with a fruity jam center.",
+    "image": {
+      "path": "macarons/orange-mac.png",
+      "alt": "Cream Cheese Frosting and Jam Macaron"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Starburst Buttercream",
+    "description": "Bursting with fruity Starburst flavors in a creamy buttercream.",
+    "image": {
+      "path": "macarons/orange-mac.png",
+      "alt": "Starburst Buttercream Macaron"
+    }
+  },
+  {
+    "id": 11,
+    "name": "White Chocolate Ganache",
+    "description": "Luxurious white chocolate ganache filling with a smooth finish.",
+    "image": {
+      "path": "macarons/orange-mac.png",
+      "alt": "White Chocolate Ganache Macaron"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Snickers",
+    "description": "A combination of chocolate, caramel, and peanuts like a Snickers bar.",
+    "image": {
+      "path": "macarons/orange-mac.png",
+      "alt": "Snickers Macaron"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Nutella Ganache",
+    "description": "Creamy Nutella ganache filling for a rich, hazelnut treat.",
+    "image": {
+      "path": "macarons/orange-mac.png",
+      "alt": "Nutella Ganache Macaron"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Gingerbread Cookie",
+    "description": "Spiced gingerbread cookie flavor with a hint of molasses.",
+    "image": {
+      "path": "macarons/orange-mac.png",
+      "alt": "Gingerbread Cookie Macaron"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Hot Chocolate Ganache",
+    "description": "Rich hot chocolate ganache with a hint of marshmallow.",
+    "image": {
+      "path": "macarons/orange-mac.png",
+      "alt": "Hot Chocolate Ganache Macaron"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Chocolate Ganache",
+    "description": "Smooth and rich chocolate ganache for a classic treat.",
+    "image": {
+      "path": "macarons/orange-mac.png",
+      "alt": "Chocolate Ganache Macaron"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Pumpkin Cheesecake",
+    "description": "Creamy pumpkin cheesecake flavor with a hint of spice.",
+    "image": {
+      "path": "macarons/orange-mac.png",
+      "alt": "Pumpkin Cheesecake Macaron"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Peppermint Bark",
+    "description": "Festive peppermint bark flavor with chocolate and mint.",
+    "image": {
+      "path": "macarons/orange-mac.png",
+      "alt": "Peppermint Bark Macaron"
+    }
+  }
+]

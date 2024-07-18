@@ -1,0 +1,45 @@
+.menu,
+.custom-menu-items {
+  margin: 7rem 0;
+}
+.custom-menu-contact {
+  max-width: 1000px;
+  margin: 3rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  display: flex;
+  padding: 3rem 6rem 3rem;
+  gap: 7rem;
+}
+
+.menu-item img {
+  max-width: 275px;
+}
+
+.menu-text {
+  max-width: 800px;
+}
+
+.circle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.circle {
+  width: 17px;
+  height: 17px;
+  background-color: gainsboro;
+  border-radius: 50px;
+  margin: 10px;
+}

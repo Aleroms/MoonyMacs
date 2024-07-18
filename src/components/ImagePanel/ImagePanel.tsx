@@ -15,10 +15,10 @@ const ImagePanel: React.FC = () => {
   return (
     <section className="image-panel">
       <div className="image-row">
-        <img src="/macrons/orange-mac.png" alt="orange macron" width={width} />
-        <img src="/macrons/orange-mac.png" alt="orange macron" width={width} />
-        <img src="/macrons/orange-mac.png" alt="orange macron" width={width} />
-        <img src="/macrons/orange-mac.png" alt="orange macron" width={width} />
+        <img src="/macarons/orange-mac.png" alt="orange macron" width={width} />
+        <img src="/macarons/orange-mac.png" alt="orange macron" width={width} />
+        <img src="/macarons/orange-mac.png" alt="orange macron" width={width} />
+        <img src="/macarons/orange-mac.png" alt="orange macron" width={width} />
       </div>
     </section>
   );
