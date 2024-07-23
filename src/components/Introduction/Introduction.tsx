@@ -4,8 +4,8 @@ const Introduction: React.FC = () => {
   return (
     <section className="introduction">
       <div className="centered-text">
-        <h4>subtitle information</h4>
-        <h1>Centered textual information</h1>
+        <h2>Centered textual information</h2>
+        <h3>subtitle information</h3>
         <p className="introduction-paragraph">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
           dolor ipsam expedita at? Animi qui aperiam ducimus, asperiores dolores

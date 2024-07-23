@@ -19,9 +19,7 @@ const CallToAction: React.FC = () => {
         {/* insert social media container here  */}
       </div>
       <div className="cta-item">
-        <div className="img-wrapper">
-          <img src="/logo/logoSvg.svg" alt="moonymacs" width={275} />
-        </div>
+        <img src="/logo/logoSvg.svg" alt="moonymacs" width={275} />
       </div>
     </section>
   );

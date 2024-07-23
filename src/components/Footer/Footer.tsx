@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
     <>
       <footer>
         <div className="footer-item">
-          <p>stay updated</p>
+          <h4>stay updated</h4>
           {/* insert social media container here  */}
         </div>
         <div className="footer-item">

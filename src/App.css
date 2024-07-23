@@ -2,3 +2,24 @@ body {
   margin: 0;
   padding: 0;
 }
+
+h1,
+h2 {
+  font-family: "Elephant", serif;
+  letter-spacing: 0.225rem;
+  font-size: 2.625rem;
+  color: #333;
+  text-transform: capitalize;
+}
+h3,
+h4 {
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  color: #444;
+}
+
+p {
+  font-family: "Roboto", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+    line-height: 1.7rem;
+}

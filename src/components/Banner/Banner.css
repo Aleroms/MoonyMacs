@@ -5,12 +5,12 @@
   justify-content: center;
   flex-direction: column;
   font-family: "Elephant", sans-serif;
-  color: whitesmoke;
   min-height: 300px;
 }
 .banner h1 {
   font-size: 5.625rem;
   text-shadow: -2px 3px 6px rgba(51, 51, 51, 0.54);
+  color: whitesmoke;
 }
 .banner p {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

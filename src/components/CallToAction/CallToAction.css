@@ -15,4 +15,7 @@
     flex-direction: column-reverse;
     gap: 100px;
   }
+  .cta-item img {
+    width: 200px;
+  }
 }

@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
           <h2 style={{ display: "inline-block" }}>Contact Form</h2>
           <ContactForm />
         </div>
-        <div>
+        <div className="contact-item">
           <h2>For a quicker response please DM me on Instagram or Facebook</h2>
           {/* insert social media container here  */}
           <h3>Service Area</h3>
