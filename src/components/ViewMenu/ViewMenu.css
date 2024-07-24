@@ -8,7 +8,7 @@
   padding: 1rem;
   max-width: 420px;
 }
-@media(max-width: 900px){
+@media(max-width: 1000px){
     .menu-cta {
         flex-direction: column;
         gap: 3rem;

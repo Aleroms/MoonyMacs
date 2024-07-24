@@ -2,9 +2,10 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./ViewMenu.css";
 import Button from "../Button/Button";
+import Carousel from "../Carousel/Carousel";
+import { slides } from "../../data/carouselData.json";
 
 const ViewMenu: React.FC = () => {
-  const temp = "300px";
   const navigate = useNavigate();
   const buttonHandler = () => {
     navigate("/menu");
@@ -22,10 +23,7 @@ const ViewMenu: React.FC = () => {
         <Button label="read more" onClick={buttonHandler} />
       </div>
       <div className="menu-cta-item">
-        {/* eventually i'll add in the carousel here  */}
-        <div
-          style={{ width: temp, height: temp, backgroundColor: "#333" }}
-        ></div>
+        <Carousel slides={slides} />
       </div>
     </section>
   );
