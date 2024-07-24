@@ -12,5 +12,23 @@
       "src": "carousel/test3.png",
       "alt": "Image 3"
     }
+  ],
+  "quotes": [
+    {
+      "quote": "Wow brenda is such a wonderful person, her macarons realy are the best.",
+      "author": "Jr"
+    },
+    {
+      "quote": "These macs should be on Times Magazine.",
+      "author": "Tom Lee"
+    },
+    {
+      "quote": "I thought these were da bomb",
+      "author": "Jim Lee"
+    },
+    {
+      "quote": "Brenda created macarons for my birthday and they were a hit!",
+      "author": "John Lee"
+    }
   ]
 }
