@@ -43,3 +43,16 @@
   border-radius: 50px;
   margin: 10px;
 }
+
+@media(max-width: 700px){
+  .menu-item{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 3rem;
+  }
+  .menu-item img {
+    max-width: 200px;
+  }
+}
