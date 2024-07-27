@@ -15,10 +15,10 @@ const ViewMenu: React.FC = () => {
       <div className="menu-cta-item">
         <h2>View Menu</h2>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi eius
-          amet iste aliquid, ullam tenetur a corrupti. A error, quidem
-          laboriosam laudantium atque aperiam incidunt corrupti, nihil
-          perferendis numquam officiis.
+          Explore our delightful menu featuring a variety of unique and classic
+          macaron flavors. From rich chocolate ganache to fresh, fruity
+          fillings, there's something for every palate. Discover your favorite
+          flavor today and treat yourself to a sweet delight!
         </p>
         <Button label="read more" onClick={buttonHandler} />
       </div>

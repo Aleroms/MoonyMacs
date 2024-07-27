@@ -7,14 +7,13 @@ const CallToAction: React.FC = () => {
         <h2>Get In Touch</h2>
         <h3>and buy some macrons :)</h3>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
-          doloremque dolor officia iure molestias odio corrupti aliquid et fugit
-          nemo.
+          Enjoy our handmade macarons, crafted with love in the heart of Apple
+          Valley. Place an order and experience the delightful crunch and creamy
+          center of out beloved treats.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
-          asperiores aut magnam atque et, ipsa quod vero suscipit hic
-          voluptatum.
+          Order now for a quick and easy pick-up or delivery, Your perfect
+          macaron moment is just a DM away!
         </p>
         {/* insert social media container here  */}
       </div>

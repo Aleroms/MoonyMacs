@@ -4,20 +4,19 @@ const Introduction: React.FC = () => {
   return (
     <section className="introduction">
       <div className="centered-text">
-        <h2>Centered textual information</h2>
-        <h3>subtitle information</h3>
+        <h2>to the moon and macs</h2>
+        <h3>where every bite is a taste of perfection</h3>
         <p className="introduction-paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
-          dolor ipsam expedita at? Animi qui aperiam ducimus, asperiores dolores
-          praesentium placeat recusandae deserunt dicta aut fuga impedit
-          sapiente sed in esse dignissimos suscipit doloribus amet quae rerum
-          omnis! Delectus ipsam maxime velit. Velit sunt itaque quas quasi atque
-          accusamus temporibus deserunt consequatur doloremque amet et harum
-          cupiditate, ipsa a distinctio qui error mollitia voluptates voluptate
-          molestias eaque eveniet sequi. Non tenetur et, debitis nesciunt at
-          deleniti in. Accusamus sed id, recusandae dolorem aut tempora officia,
-          aspernatur suscipit dolor odit quaerat minima reprehenderit voluptas
-          distinctio rem necessitatibus quos possimus, optio enim.
+          Our family-owned bakery, nestled in the charming community of Apple
+          Valley, CA, has been creating delectable macarons since 2021. Inspired
+          by our grandmother’s traditional recipes and passion for baking, we
+          set out to bring a piece of Paris to our hometown. Each macaron is
+          handcrafted with the finest ingredients, ensuring a burst of flavor in
+          every bite. Our commitment to quality and customer satisfaction has
+          earned us a loyal following of macaron enthusiasts. We believe in the
+          magic of small, local businesses and take pride in being a cherished
+          part of the community. Join us and experience the warmth and love
+          baked into every macaron.
         </p>
       </div>
     </section>

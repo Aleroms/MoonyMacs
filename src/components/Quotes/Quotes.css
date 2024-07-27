@@ -12,6 +12,8 @@
 .quote {
   position: relative;
   margin: 1rem;
+  padding: 0.625rem 0;
+  max-width: 600px;
 }
 .quote-left {
   position: absolute;
@@ -30,9 +32,13 @@
   height: 2rem;
   color: white;
   filter: drop-shadow(0 0 5px #555);
+  cursor: pointer;
 }
 @media (max-width: 500px) {
   .quote-arrow {
     bottom: -4rem;
+  }
+  .quote {
+    padding: 1.625rem 0;
   }
 }
