@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "name": "Brownie Batter",
+    "description": "Indulge in the ultimate chocolate fantasy with our Brownie Batter macaron. This decadent treat encapsulates the gooey richness of freshly mixed brownie batter encased in a crisp, airy macaron shell.",
+    "image": {
+      "path": "macarons/brownie-batter.jpg",
+      "alt": "Brownie Batter Macaron"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Birthday Cake",
+    "description": "Celebrate every day with our Birthday Cake macaron. Imagine the joy of a festive, fluffy vanilla cake, complete with rainbow sprinkles, all wrapped up in a delicate macaron.",
+    "image": {
+      "path": "macarons/birthday-cake.webp",
+      "alt": "Birthday Cake Macaron"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Biscoff Buttercream",
+    "description": "Experience the unique taste of Europe with our Biscoff Buttercream macaron, featuring a silky buttercream that's richly infused with the caramelized splendor of Biscoff cookies.",
+    "image": {
+      "path": "macarons/biscoff-buttercream.webp",
+      "alt": "Biscoff Buttercream Macaron"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Passionfruit Infused White Chocolate",
+    "description": "Escape to the tropics with each bite of our Passionfruit Infused White Chocolate macaron. The vibrant tartness of passionfruit perfectly complements the sweet, velvety white chocolate filling.",
+    "image": {
+      "path": "macarons/white-chocolate.webp",
+      "alt": "Passionfruit Infused White Chocolate Macaron"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Dulce de Leche",
+    "description": "Savor the sweet allure of our Dulce de Leche macaron. Rich, creamy caramel is beautifully balanced with a light, delicate macaron shell for a luxurious treat.",
+    "image": {
+      "path": "macarons/dulce-de-leche.webp",
+      "alt": "Dulce de Leche Macaron"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Cookies and Cream",
+    "description": "Enjoy the delightful contrast of our Cookies and Cream macaron, featuring crunchy cookie bits mingled with smooth cream in a classic flavor combination.",
+    "image": {
+      "path": "macarons/cookies-and-cream.webp",
+      "alt": "Cookies and Cream Macaron"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Churros",
+    "description": "Relish the warmth of our Churros macaron, where the nostalgic taste of cinnamon sugar blends perfectly with the delicate crunch of the macaron shell.",
+    "image": {
+      "path": "macarons/churros.webp",
+      "alt": "Churros Macaron"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Snickerdoodle",
+    "description": "Dive into the sweet comfort of our Snickerdoodle macaron, where hints of cinnamon spice meet the soft, chewy texture of a classic cookie.",
+    "image": {
+      "path": "macarons/snickerdoodle.webp",
+      "alt": "Snickerdoodle Macaron"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Cream Cheese Frosting and Jam",
+    "description": "Delight in the lush harmony of our Cream Cheese Frosting and Jam macaron, featuring a rich, tangy cream cheese paired with a sweet, fruity jam center.",
+    "image": {
+      "path": "macarons/cream-cheese.webp",
+      "alt": "Cream Cheese Frosting and Jam Macaron"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Starburst Buttercream",
+    "description": "Experience a burst of fruit flavors with our Starburst Buttercream macaron, where vibrant, candy-inspired hues meet a silky, smooth buttercream.",
+    "image": {
+      "path": "macarons/starburst-buttercream.webp",
+      "alt": "Starburst Buttercream Macaron"
+    }
+  },
+  {
+    "id": 11,
+    "name": "White Chocolate Ganache",
+    "description": "Indulge in the decadence of our White Chocolate Ganache macaron, featuring a lush, creamy filling encased in a light, crisp shell.",
+    "image": {
+      "path": "macarons/ganache.webp",
+      "alt": "White Chocolate Ganache Macaron"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Snickers",
+    "description": "Embrace the indulgence of our Snickers macaron, a perfect blend of chocolate, caramel, and peanuts, mirroring the beloved candy bar.",
+    "image": {
+      "path": "macarons/snickers.webp",
+      "alt": "Snickers Macaron"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Nutella Ganache",
+    "description": "Savor the rich, chocolate-hazelnut fusion of our Nutella Ganache macaron, where creamy Nutella ganache fills a perfectly textured shell.",
+    "image": {
+      "path": "macarons/nutella.webp",
+      "alt": "Nutella Ganache Macaron"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Gingerbread Cookie",
+    "description": "Get cozy with our Gingerbread Cookie macaron, featuring the warm, spicy flavors of traditional gingerbread with a sweet, molasses undertone.",
+    "image": {
+      "path": "macarons/gingerbread.webp",
+      "alt": "Gingerbread Cookie Macaron"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Hot Chocolate Ganache",
+    "description": "Warm up with our Hot Chocolate Ganache macaron, where rich chocolate ganache is complemented by a hint of marshmallow for a winter treat.",
+    "image": {
+      "path": "macarons/hot-chocolate-ganache.webp",
+      "alt": "Hot Chocolate Ganache Macaron"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Chocolate Ganache",
+    "description": "Experience the classic elegance of our Chocolate Ganache macaron, with its smooth, rich chocolate filling and crisp, airy shell.",
+    "image": {
+      "path": "macarons/chocolate-ganache.webp",
+      "alt": "Chocolate Ganache Macaron"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Pumpkin Cheesecake",
+    "description": "Celebrate the season with our Pumpkin Cheesecake macaron, blending creamy cheesecake with a hint of pumpkin and spice for a festive treat.",
+    "image": {
+      "path": "macarons/pumpkin-cheesecake.webp",
+      "alt": "Pumpkin Cheesecake Macaron"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Peppermint Bark",
+    "description": "Embrace the holiday spirit with our Peppermint Bark macaron, where crisp peppermint and rich chocolate combine in a festive, minty delight.",
+    "image": {
+      "path": "macarons/peppermint.webp",
+      "alt": "Peppermint Bark Macaron"
+    }
+  }
+]
