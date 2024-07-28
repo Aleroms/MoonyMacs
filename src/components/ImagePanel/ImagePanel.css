@@ -1,23 +1,36 @@
 .image-panel {
-    margin: 8.625rem 3.625rem;
+  margin: 7.625rem 3.225rem;
+}
+.image-panel .image-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
-.image-row{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 20px;
+.image-panel img {
+  width: 275px;
+  height: 275px;
 }
-@media(max-width: 900px){
-    .image-panel{
-        margin: 7rem 1rem;
-    }
-    .image-row{
-        row-gap: 40px;
-    }
-    /* remove this and favor it for responsive width  */
-    .image-row img{
-        width: 90px;
-    }
+.img-panel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-row img {
+  border-radius: 15px;
+  box-shadow: 0 0 5px #333;
+}
+
+/* Media query for screens larger than 1000px */
+@media (min-width: 1275px) {
+  .image-panel .image-row {
+    grid-template-columns: repeat(4, 1fr);
+    margin: 10px auto;
+  }
+  .image-panel {
+    margin: 7.625rem 3.225rem;
+  }
 }

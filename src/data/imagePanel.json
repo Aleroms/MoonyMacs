@@ -1,0 +1,20 @@
+{
+  "images": [
+    {
+      "src": "imagePanel/image1.webp",
+      "alt": "macarons"
+    },
+    {
+      "src": "imagePanel/image2.webp",
+      "alt": "macarons"
+    },
+    {
+      "src": "imagePanel/image3.webp",
+      "alt": "macarons"
+    },
+    {
+      "src": "imagePanel/image4.webp",
+      "alt": "macarons"
+    }
+  ]
+}
