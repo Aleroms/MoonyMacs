@@ -23,12 +23,15 @@ const Carousel: React.FC<CarouselProps> = ({ slides }) => {
       <BsArrowLeftCircleFill className="arrow arrow-left" onClick={prevSlide} />
       {slides.map((item, idx) => {
         return (
-          <img
-            src={item.src}
-            alt={item.alt}
+          <div
+            style={{
+              backgroundImage: `url(${item.src})`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+            }}
             key={idx}
             className={slide === idx ? "slide" : "slide-hidden"}
-          />
+          ></div>
         );
       })}
       <BsArrowRightCircleFill

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./GalleryComponent.css";
 
 interface Image {
-  id: number;
+  id: string;
   path: string;
   alt: string;
 }
@@ -30,7 +30,7 @@ const GalleryComponent: React.FC<GalleryProps> = ({ images }) => {
             key={image.id}
             onClick={() => handleImageClick(image)}
           >
-            <img src={image.path} alt={image.alt} />
+            <img src={`gallery/${image.path}`} alt={image.alt} />
           </div>
         ))}
 
@@ -39,7 +39,7 @@ const GalleryComponent: React.FC<GalleryProps> = ({ images }) => {
             <span className="close">&times;</span>
             <img
               className="modal-content"
-              src={selectedImage.path}
+              src={`gallery/${selectedImage.path}`}
               alt={selectedImage.alt}
             />
             <div className="caption">{selectedImage.alt}</div>

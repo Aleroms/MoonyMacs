@@ -1,15 +1,27 @@
 {
   "slides": [
     {
-      "src": "carousel/test1.png",
+      "src": "gallery/6D1898A9-1BCB-475F-8B35-75280D6D0DEF.webp",
       "alt": "Image 1"
     },
     {
-      "src": "carousel/test2.png",
+      "src": "gallery/65E632DF-EBE5-4816-8731-C44EF25E7057.webp",
       "alt": "Image 2"
     },
     {
-      "src": "carousel/test3.png",
+      "src": "gallery/8895CA5C-4AA8-4F9A-9981-622CF14B64D0.webp",
+      "alt": "Image 3"
+    },
+    {
+      "src": "gallery/C207265E-032C-460E-9949-16B8CAF1D42D.webp",
+      "alt": "Image 1"
+    },
+    {
+      "src": "gallery/204530FE-6F92-440F-93F9-8925D60A063B.webp",
+      "alt": "Image 2"
+    },
+    {
+      "src": "gallery/IMG_9161.webp",
       "alt": "Image 3"
     }
   ],
@@ -39,5 +51,4 @@
       "author": "Linda K."
     }
   ]
-  
 }

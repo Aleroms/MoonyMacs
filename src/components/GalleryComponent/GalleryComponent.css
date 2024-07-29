@@ -10,7 +10,6 @@
 .gallery-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
 }
 
 .gallery-item {
@@ -20,7 +19,8 @@
 }
 
 .gallery-item img {
-  width: 100%;
+  width: 90%;
+  height: 90%;
   transition: transform 0.2s;
 }
 
