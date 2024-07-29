@@ -18,8 +18,8 @@ h4 {
   color: #444;
 }
 
-p {
-  font-family: "Roboto", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+p, a {
+  font-family: "Roboto", "Gill Sans", "Gill Sans MT", "Trebuchet MS",
     sans-serif;
     line-height: 1.7rem;
 }

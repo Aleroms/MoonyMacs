@@ -2,6 +2,7 @@ import React from "react";
 import NavbarLinks from "../Navbar/NavbarLinks";
 import "./Footer.css";
 import Logo from "../Logo/Logo";
+import SocialMedia from "../SocialMedia/SocialMedia";
 
 const Footer: React.FC = () => {
   return (
@@ -9,7 +10,7 @@ const Footer: React.FC = () => {
       <footer>
         <div className="footer-item">
           <h4>stay updated</h4>
-          {/* insert social media container here  */}
+          <SocialMedia type="simple" size="sm"/>
         </div>
         <div className="footer-item">
           <nav>
