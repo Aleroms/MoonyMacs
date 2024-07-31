@@ -7,11 +7,14 @@ import Introduction from "../../components/Introduction/Introduction";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import CallToAction from "../../components/CallToAction/CallToAction";
 import ViewMenu from "../../components/ViewMenu/ViewMenu";
+
+import { images } from "../../data/imagePanel.json";
+
 const Home: React.FC = () => {
   return (
     <main>
       <Banner page="home" />
-      <ImagePanel />
+      <ImagePanel images={images} />
       <Introduction />
       <ViewMenu />
       <Testimonials />

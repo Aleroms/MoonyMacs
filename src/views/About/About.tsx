@@ -2,11 +2,12 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 import Banner from "../../components/Banner/Banner";
-
-import "./About.css";
 import MissionStatement from "../../components/MissionStatement/MissionStatement";
 import ImagePanel from "../../components/ImagePanel/ImagePanel";
 import Button from "../../components/Button/Button";
+
+import "./About.css";
+import { images } from "../../data/imagePanel.json";
 
 const About: React.FC = () => {
   const navigate = useNavigate();
@@ -17,7 +18,7 @@ const About: React.FC = () => {
     <main>
       <Banner page="about" title="About" />
       <MissionStatement />
-      <ImagePanel />
+      <ImagePanel images={images} />
       <div className="mission-statement">
         <Button label="view gallery" onClick={buttonHandler} />
       </div>
@@ -61,9 +62,9 @@ const About: React.FC = () => {
           <p>
             I love hearing from you! Whether you have a question, a special
             request, or just want to share your macaron experience, please don’t
-            hesitate to reach out. Message me on Instagram, Facebook, or
-            send me an email. I am always here to help and look forward to
-            connecting with you.
+            hesitate to reach out. Message me on Instagram, Facebook, or send me
+            an email. I am always here to help and look forward to connecting
+            with you.
           </p>
         </article>
       </section>

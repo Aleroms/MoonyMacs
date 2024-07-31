@@ -2,6 +2,8 @@ import React from "react";
 import Button from "../Button/Button";
 import { useNavigate } from "react-router-dom";
 import "./MenuList.css";
+import { customMacarons } from "../../data/imagePanel.json";
+import ImagePanel from "../ImagePanel/ImagePanel";
 
 interface Image {
   path: string;
@@ -48,6 +50,7 @@ const MenuList: React.FC<MacaronsProp> = ({ macrons }) => {
         ))}
       </div>
       {/* for custom macarons */}
+      <ImagePanel images={customMacarons} />
       <div className="custom-menu-items">
         <div className="circle-container">
           <div className="circle"></div>

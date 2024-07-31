@@ -16,5 +16,23 @@
       "src": "imagePanel/image4.webp",
       "alt": "macarons"
     }
+  ],
+  "customMacarons": [
+    {
+      "src": "gallery/IMG_1816.webp",
+      "alt": "macarons"
+    },
+    {
+      "src": "gallery/IMG_2100.webp",
+      "alt": "macarons"
+    },
+    {
+      "src": "gallery/IMG_3739.webp",
+      "alt": "macarons"
+    },
+    {
+      "src": "gallery/IMG_8951.webp",
+      "alt": "macarons"
+    }
   ]
 }
