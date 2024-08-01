@@ -19,7 +19,14 @@ const About: React.FC = () => {
       <Banner page="about" title="About" />
       <MissionStatement />
       <ImagePanel images={images} />
-      <div style={{backgroundColor: "white", display: "flex",justifyContent:"center"}}>
+      <div
+        style={{
+          backgroundColor: "white",
+          display: "flex",
+          justifyContent: "center",
+          paddingBottom: "3rem",
+        }}
+      >
         <Button label="view gallery" onClick={buttonHandler} />
       </div>
       <section className="about-container">

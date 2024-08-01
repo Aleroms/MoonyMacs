@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
@@ -8,10 +8,33 @@ import NavbarLinks from "./NavbarLinks";
 
 const Navbar: React.FC = () => {
   const [showNavbar, setShowNavbar] = useState(false);
+  const [lastScrollY, setLastScrollY] = useState(0);
+  const [hidden, setHidden] = useState(false);
 
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
   };
+
+  const controlNavbar = () => {
+    if (typeof window !== "undefined") {
+      // hide navbar when scrolling down and show
+      // when scrolling up
+      setHidden(window.scrollY > lastScrollY);
+
+      // update last scroll position
+      setLastScrollY(window.scrollY);
+    }
+  };
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", controlNavbar);
+
+      return () => {
+        window.removeEventListener("scroll", controlNavbar);
+      };
+    }
+  }, [lastScrollY]);
 
   return (
     <nav className="navbar">
@@ -25,7 +48,7 @@ const Navbar: React.FC = () => {
           <Hamburger />
         </div>
         <div className={`nav-elements  ${showNavbar && "active"}`}>
-          <NavbarLinks/>
+          <NavbarLinks />
         </div>
       </div>
     </nav>

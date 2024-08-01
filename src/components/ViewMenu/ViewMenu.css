@@ -7,12 +7,15 @@
 .menu-cta-item {
   padding: 1rem;
   max-width: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 @media(max-width: 1000px){
     .menu-cta {
         flex-direction: column;
         gap: 3rem;
-        padding: 0;
-        /* margin: 7rem 3rem; */
+        padding: 7rem 0;
     }
 }

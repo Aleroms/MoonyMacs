@@ -9,6 +9,9 @@
   flex: 1;
   max-width: 700px;
 }
+.about-item:last-child{
+  padding-bottom: 3rem;
+}
 @media(max-width: 500px){
   .about-container{
     padding: 0 1rem;
