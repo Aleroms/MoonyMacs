@@ -12,6 +12,7 @@ import { images } from "../../data/imagePanel.json";
 
 const Home: React.FC = () => {
   return (
+    <>
     <main>
       <Banner page="home" />
       <ImagePanel images={images} />
@@ -21,6 +22,8 @@ const Home: React.FC = () => {
       <CallToAction />
       {/* Instagram API Image Carousel  */}
     </main>
+    </>
+    
   );
 };
 

@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: white;
+  z-index: 1;
 }
 
 h1,
@@ -18,8 +20,11 @@ h4 {
   color: #444;
 }
 
-p, a {
-  font-family: "Roboto", "Gill Sans", "Gill Sans MT", "Trebuchet MS",
-    sans-serif;
-    line-height: 1.7rem;
+p,
+a {
+  font-family: "Roboto", "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  line-height: 1.7rem;
+}
+section {
+  background-color: white;
 }

@@ -1,6 +1,7 @@
 .introduction {
   max-width: 1300px;
-  margin: 7rem auto;
+  margin: 0 auto;
+  padding: 1rem;
   text-align: center;
 }
 .centered-text {

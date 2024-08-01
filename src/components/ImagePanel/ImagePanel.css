@@ -1,5 +1,5 @@
 .image-panel {
-  margin: 7.625rem 3.225rem;
+  padding: 7.625rem 3.225rem;
 }
 .image-panel .image-row {
   display: grid;
@@ -45,6 +45,6 @@
     margin: 10px auto;
   }
   .image-panel {
-    margin: 7.625rem 3.225rem;
+    padding: 7.625rem 3.225rem;
   }
 }

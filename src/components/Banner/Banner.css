@@ -1,11 +1,13 @@
 .banner {
   padding: 2rem 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   font-family: "Elephant", sans-serif;
-  min-height: 300px;
+
+  min-height: 375px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  z-index: -2;
 }
 .banner h1 {
   font-size: 5.625rem;
@@ -13,38 +15,48 @@
   color: whitesmoke;
 }
 .banner p {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 600;
   font-size: 2rem;
 }
+.banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  z-index: -1;
+
+  width: 24%; /* or any width you want */
+  left: calc(50% - 12%); /* 50% - half of the width */
+}
 .banner-home {
   background-image: url("/banner/banner-home-desktop.jpg");
-  background-position: center;
-  background-size: cover;
 }
 .banner-contact {
   background-image: url("/banner/banner-contact-desktop.jpg");
-  background-position: center;
-  background-size: cover;
 }
 .banner-about {
   background-image: url("/banner/banner-about-desktop.jpg");
-  background-position: center;
-  background-size: cover;
 }
 .banner-gallery {
   background-image: url("/banner/banner-gallery-desktop.jpg");
-  background-position: center;
-  background-size: cover;
 }
 .banner-menu {
   background-image: url("/banner/banner-menu-desktop.jpg");
-  background-position: center;
-  background-size: cover;
 }
 
 @media (max-width: 600px) {
   .banner h1 {
     font-size: 3.625rem;
+  }
+  .banner {
+    background-attachment: scroll;
+    min-height: 275px;
+  }
+  .banner-content {
+    position: inherit;
+    width: 100%;
+    left: 0;
   }
 }

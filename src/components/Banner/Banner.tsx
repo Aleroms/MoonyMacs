@@ -39,18 +39,18 @@ const Banner: React.FC<BannerProps> = ({ page, title }) => {
   return (
     <div className={`banner banner-${page}`}>
       {page === "home" && (
-        <>
+        <div className="banner-content">
           <Logo width={logoWidth} />
           <Button label="view our menu" onClick={buttonHandler} />
-        </>
+        </div>
       )}
       {(page === "about" ||
         page === "contact" ||
         page === "gallery" ||
         page === "menu") && (
-        <>
+        <div className="banner-content">
           <h1>{title}</h1>
-        </>
+        </div>
       )}
     </div>
   );

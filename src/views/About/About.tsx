@@ -19,7 +19,7 @@ const About: React.FC = () => {
       <Banner page="about" title="About" />
       <MissionStatement />
       <ImagePanel images={images} />
-      <div className="mission-statement">
+      <div style={{backgroundColor: "white", display: "flex",justifyContent:"center"}}>
         <Button label="view gallery" onClick={buttonHandler} />
       </div>
       <section className="about-container">
