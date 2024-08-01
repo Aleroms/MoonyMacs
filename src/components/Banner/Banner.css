@@ -2,23 +2,14 @@
   padding: 2rem 1rem;
   font-family: "Elephant", sans-serif;
 
-  min-height: 375px;
+  min-height: 500px;
   position: relative;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   z-index: -2;
 }
-.banner h1 {
-  font-size: 5.625rem;
-  text-shadow: -2px 3px 6px rgba(51, 51, 51, 0.54);
-  color: whitesmoke;
-}
-.banner p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 600;
-  font-size: 2rem;
-}
+
 .banner-content {
   display: flex;
   align-items: center;
@@ -28,6 +19,7 @@
   z-index: -1;
 
   width: 24%; /* or any width you want */
+  top: 150px;
   left: calc(50% - 12%); /* 50% - half of the width */
 }
 .banner-home {
@@ -45,14 +37,23 @@
 .banner-menu {
   background-image: url("/banner/banner-menu-desktop.jpg");
 }
-
+.banner h1 {
+  font-size: 5.625rem;
+  text-shadow: -2px 3px 6px rgba(51, 51, 51, 0.54);
+  color: whitesmoke;
+}
+.banner p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
 @media (max-width: 600px) {
   .banner h1 {
     font-size: 3.625rem;
   }
   .banner {
     background-attachment: scroll;
-    min-height: 275px;
+    min-height: 400px;
   }
   .banner-content {
     position: inherit;

@@ -19,7 +19,9 @@ const Navbar: React.FC = () => {
     if (typeof window !== "undefined") {
       // hide navbar when scrolling down and show
       // when scrolling up
-      setHidden(window.scrollY > lastScrollY);
+
+      const scrollOffset = window.innerWidth > 600 ? 400 : 0;
+      setHidden(window.scrollY > lastScrollY && lastScrollY > scrollOffset);
 
       // update last scroll position
       setLastScrollY(window.scrollY);
@@ -37,7 +39,8 @@ const Navbar: React.FC = () => {
   }, [lastScrollY]);
 
   return (
-    <nav className="navbar">
+    // <nav className="navbar">
+    <nav className={`navbar ${hidden && "scroll-down"}`}>
       <div className="navbar-container">
         <div className="logo">
           <NavLink to="/">

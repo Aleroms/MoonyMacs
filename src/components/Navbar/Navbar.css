@@ -9,7 +9,13 @@
 }
 
 .navbar {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  transition: all 0.3s ease-out;
+
   background-color: #333333;
   padding: 1rem 0;
 }
@@ -17,8 +23,6 @@
 .menu-icon {
   display: none;
 }
-
-
 
 .nav-elements ul {
   display: flex;
@@ -38,7 +42,7 @@
 }
 
 .nav-elements ul a.active {
-  color: #00B4DB;
+  color: #00b4db;
   position: relative;
 }
 
@@ -50,7 +54,11 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #8E2DE2;
+  background-color: #8e2de2;
+}
+
+.scroll-down {
+  transform: translateY(-100%);
 }
 
 @media (max-width: 768px) {
