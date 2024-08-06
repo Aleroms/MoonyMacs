@@ -50,7 +50,6 @@ const MenuList: React.FC<MacaronsProp> = ({ macrons }) => {
         ))}
       </div>
       {/* for custom macarons */}
-      <ImagePanel images={customMacarons} />
       <div className="custom-menu-items">
         <div className="circle-container">
           <div className="circle"></div>
@@ -62,6 +61,7 @@ const MenuList: React.FC<MacaronsProp> = ({ macrons }) => {
           <Button label="contact" onClick={NavigateTo} />
         </div>
       </div>
+      <ImagePanel images={customMacarons} />
     </section>
   );
 };

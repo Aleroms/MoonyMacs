@@ -34,6 +34,7 @@ const Banner: React.FC<BannerProps> = ({ page, title }) => {
   }, []);
   const navigate = useNavigate();
   const buttonHandler = () => {
+    console.log("menu clicked");
     navigate("/menu");
   };
   return (
