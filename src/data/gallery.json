@@ -123,5 +123,15 @@
     "id": "IMG_7707",
     "path": "IMG_7707.webp",
     "alt": "IMG_7707 image"
+  },
+  {
+    "id": "pokemon",
+    "path": "pokemon.webp",
+    "alt": "custom pokemon macaron"
+  },
+  {
+    "id": "minecraft",
+    "path": "minecraft.webp",
+    "alt": "minecraft macaron image"
   }
 ]
