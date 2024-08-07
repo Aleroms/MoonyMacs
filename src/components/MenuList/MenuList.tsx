@@ -41,7 +41,11 @@ const MenuList: React.FC<MacaronsProp> = ({ macrons }) => {
                   : "rgba(255, 255, 255, 0.5)",
             }}
           >
-            <img src={macron.image.path} alt={macron.image.alt} />
+            <img
+              src={macron.image.path}
+              alt={macron.image.alt}
+              loading="lazy"
+            />
             <div className="menu-text">
               <h3>{macron.name}</h3>
               <p>{macron.description}</p>

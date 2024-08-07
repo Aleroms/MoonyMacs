@@ -30,7 +30,7 @@ const GalleryComponent: React.FC<GalleryProps> = ({ images }) => {
             key={image.id}
             onClick={() => handleImageClick(image)}
           >
-            <img src={`gallery/${image.path}`} alt={image.alt} />
+            <img src={`gallery/${image.path}`} alt={image.alt} loading="lazy" />
           </div>
         ))}
 
@@ -41,6 +41,7 @@ const GalleryComponent: React.FC<GalleryProps> = ({ images }) => {
               className="modal-content"
               src={`gallery/${selectedImage.path}`}
               alt={selectedImage.alt}
+              loading="lazy"
             />
             <div className="caption">{selectedImage.alt}</div>
           </div>
