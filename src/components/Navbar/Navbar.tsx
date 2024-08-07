@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
 
   return (
     // <nav className="navbar">
-    <nav className={`navbar ${hidden && "scroll-down"}`}>
+    <nav className={`navbar navbar-color ${hidden && "scroll-down"}`}>
       <div className="navbar-container">
         <div className="logo">
           <NavLink to="/">
@@ -50,8 +50,34 @@ const Navbar: React.FC = () => {
         <div className="menu-icon" onClick={handleShowNavbar}>
           <Hamburger />
         </div>
-        <div className={`nav-elements  ${showNavbar && "active"}`}>
-          <NavbarLinks />
+        <div className={`nav-elements navbar-color  ${showNavbar && "active"}`}>
+          <ul>
+            <li>
+              <NavLink to="/" onClick={handleShowNavbar}>
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/about" onClick={handleShowNavbar}>
+                About
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/gallery" onClick={handleShowNavbar}>
+                Gallery
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/menu" onClick={handleShowNavbar}>
+                Menu
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact" onClick={handleShowNavbar}>
+                Contact
+              </NavLink>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
