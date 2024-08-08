@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 
 import Logo from "../Logo/LogoText";
-import Button from "../Button/Button";
 import "./Banner.css";
 
 interface BannerProps {
@@ -17,10 +15,8 @@ const Banner: React.FC<BannerProps> = ({ page, title }) => {
     if (window.innerWidth < 600) {
       setLogoWidth(250);
     } else if (window.innerWidth < 800) {
-      setLogoWidth(300);
-    } else if (window.innerWidth < 1000) {
       setLogoWidth(400);
-    } else {
+    } else if (window.innerWidth < 1000) {
       setLogoWidth(500);
     }
   };
@@ -32,17 +28,12 @@ const Banner: React.FC<BannerProps> = ({ page, title }) => {
       window.removeEventListener("resize", updateLogoWidth);
     };
   }, []);
-  const navigate = useNavigate();
-  const buttonHandler = () => {
-    console.log("menu clicked");
-    navigate("/menu");
-  };
+
   return (
     <div className={`banner banner-${page}`}>
       {page === "home" && (
         <div className="banner-content">
           <Logo width={logoWidth} />
-          <Button label="view our menu" onClick={buttonHandler} />
         </div>
       )}
       {(page === "about" ||

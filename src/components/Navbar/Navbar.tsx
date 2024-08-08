@@ -4,7 +4,6 @@ import "./Navbar.css";
 
 import Hamburger from "../Hamburger/Hamburger";
 import Logo from "../Logo/Logo";
-import NavbarLinks from "./NavbarLinks";
 
 const Navbar: React.FC = () => {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -50,7 +49,7 @@ const Navbar: React.FC = () => {
         <div className="menu-icon" onClick={handleShowNavbar}>
           <Hamburger />
         </div>
-        <div className={`nav-elements navbar-color  ${showNavbar && "active"}`}>
+        <div className={`nav-elements  ${showNavbar && "active"}`}>
           <ul>
             <li>
               <NavLink to="/" onClick={handleShowNavbar}>

@@ -13,14 +13,14 @@ const ViewMenu: React.FC = () => {
   return (
     <section className="menu-cta">
       <div className="menu-cta-item">
-        <h2>View Menu</h2>
+        <h2>Delightful Macs</h2>
         <p>
           Explore our delightful menu featuring a variety of unique and classic
           macaron flavors. From rich chocolate ganache to fresh, fruity
           fillings, there's something for every palate. Discover your favorite
           flavor today and treat yourself to a sweet delight!
         </p>
-        <Button label="read more" onClick={buttonHandler} />
+        <Button label="view menu" onClick={buttonHandler} />
       </div>
       <div className="menu-cta-item">
         <Carousel slides={slides} />

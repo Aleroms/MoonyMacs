@@ -80,8 +80,8 @@
   .nav-elements {
     position: absolute;
     right: 0;
-    top: 107px;
-    background-color: rgba(68, 68, 68, 0.913);
+    top: 111px;
+    background-color: rgba(68, 68, 68, 0.96);
     backdrop-filter: blur(8px);
     width: 0px;
     height: calc(100vh - 60px);
