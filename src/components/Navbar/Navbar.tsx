@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
 
   return (
     // <nav className="navbar">
-    <nav className={`navbar navbar-color ${hidden && "scroll-down"}`}>
+    <nav className={`navbar  ${hidden && "scroll-down"}`}>
       <div className="navbar-container">
         <div className="logo">
           <NavLink to="/">

@@ -18,7 +18,7 @@ const ImagePanel: React.FC<ImagePanelProps> = ({ images }) => {
       <div className="image-row">
         {images.map((image, idx) => (
           <div className="img-panel-wrapper" key={idx}>
-            <img src={image.src} alt={image.alt} width={imageWidth} />
+            <img src={image.src} alt={image.alt} width={imageWidth} loading="lazy"/>
           </div>
         ))}
       </div>

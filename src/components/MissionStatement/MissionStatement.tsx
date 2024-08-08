@@ -18,7 +18,7 @@ const MissionStatement: React.FC = () => {
       </div>
       <div className="ms-item">
         <div className="img-wrapper">
-          <img src="profile_pic.png" alt="profile picture" />
+          <img src="profile_pic.png" alt="profile picture" loading="lazy" />
         </div>
       </div>
     </section>
