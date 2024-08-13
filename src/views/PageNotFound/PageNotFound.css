@@ -1,0 +1,15 @@
+.not-found-container {
+  padding: 7rem 3rem;
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.not-found-button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.not-found-button-wrapper button:last-child {
+  background-color: var(--primary-purple);
+}
