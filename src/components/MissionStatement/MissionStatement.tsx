@@ -6,14 +6,15 @@ const MissionStatement: React.FC = () => {
       <div className="ms-item">
         <h2>My Story</h2>
         <p>
-          At To the Moon and Macs, my journey began in 2021, driven by a love
-          for baking and a passion for bringing people together through
-          delightful treats. Inspired by my grandmother’s cherished recipes and
-          a dream to share my creations, I started this bakery in the heart of
-          Apple Valley, CA. Over the years, I have grown from a small kitchen
-          operation to a beloved local business, all thanks to the wonderful
-          community and dedicated customers. Every macaron I create is a
-          testament to my commitment to quality, tradition, and innovation.
+          <i>To the Moon and Macs</i> began its journey in May 2021, fueled by a
+          love for baking and the desire to create affordable, delicious
+          macarons for everyone. As a self-taught macaron baker, I was inspired
+          to start this business after wanting to buy macarons for my daughter
+          but finding them too expensive. Determined to make this delightful
+          treat accessible, I honed my craft and launched{" "}
+          <i>To the Moon and Macs</i>. Today, I am proud to share my creations
+          with the community, delivering joy and sweetness one macaron at a
+          time.
         </p>
       </div>
       <div className="ms-item">

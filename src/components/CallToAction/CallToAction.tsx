@@ -1,6 +1,12 @@
 import React from "react";
 import "./CallToAction.css";
+import Button from "../Button/Button";
+import { useNavigate } from "react-router-dom";
 const CallToAction: React.FC = () => {
+  const navigation = useNavigate();
+  const navigateToContactPage = () => {
+    navigation("/contact");
+  };
   return (
     <section className="call-to-action">
       <div className="cta-item">
@@ -16,6 +22,7 @@ const CallToAction: React.FC = () => {
           macaron moment is just a DM away!
         </p>
         {/* insert social media container here  */}
+        <Button label="contact me" onClick={navigateToContactPage} />
       </div>
       <div className="cta-item">
         <img src="/logo/logoSvg.svg" alt="moonymacs" width={275} />

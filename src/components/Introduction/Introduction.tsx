@@ -1,5 +1,6 @@
 import React from "react";
 import "./Introduction.css";
+import SocialMedia from "../SocialMedia/SocialMedia";
 const Introduction: React.FC = () => {
   return (
     <section className="introduction">
@@ -7,17 +8,20 @@ const Introduction: React.FC = () => {
         <h2>to the moon and macs</h2>
         <h3>where every bite is a taste of perfection</h3>
         <p className="introduction-paragraph">
-          Our family-owned bakery, nestled in the charming community of Apple
-          Valley, CA, has been creating delectable macarons since 2021. Inspired
-          by our grandmother’s traditional recipes and passion for baking, we
-          set out to bring a piece of Paris to our hometown. Each macaron is
-          handcrafted with the finest ingredients, ensuring a burst of flavor in
-          every bite. Our commitment to quality and customer satisfaction has
-          earned us a loyal following of macaron enthusiasts. We believe in the
-          magic of small, local businesses and take pride in being a cherished
-          part of the community. Join us and experience the warmth and love
-          baked into every macaron.
+          Welcome <i>To the Moon and Macs</i>, a stellar macaron bakery launched
+          in May 2021 and proudly serving the High Desert and beyond. Built on a
+          foundation of passion, creativity, and the drive to share delectable
+          treats, we are dedicated to bringing joy to every corner of our
+          galaxy. Each macaron is crafted with the finest ingredients, ensuring
+          an out-of-this-world experience in every bite. We deliver these sweets
+          straight to your door, making it easier than ever to indulge in a
+          piece of the stars.
         </p>
+        <p>
+          Join us on this journey and experience the warmth and love that goes
+          into every macaron.
+        </p>
+        <SocialMedia type="simple" size="md" />
       </div>
     </section>
   );

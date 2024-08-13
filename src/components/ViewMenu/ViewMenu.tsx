@@ -15,10 +15,12 @@ const ViewMenu: React.FC = () => {
       <div className="menu-cta-item">
         <h2>Delightful Macs</h2>
         <p>
-          Explore our delightful menu featuring a variety of unique and classic
-          macaron flavors. From rich chocolate ganache to fresh, fruity
-          fillings, there's something for every palate. Discover your favorite
-          flavor today and treat yourself to a sweet delight!
+          Explore our delightful menu featuring a constellation of unique and
+          classic macaron flavors. From the warm, cinnamon embrace of Churro to
+          the playful sweetness of Birthday Cake and the comforting crunch of
+          Cookies and Cream, there’s something for every taste bud in our
+          galaxy. Discover your favorite flavor today and treat yourself to a
+          celestial delight!
         </p>
         <Button label="view menu" onClick={buttonHandler} />
       </div>

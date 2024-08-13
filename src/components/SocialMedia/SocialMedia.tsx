@@ -16,7 +16,7 @@ const SocialMedia: React.FC<SocialMediaProps> = ({ type, size }) => {
   const instagramUrl =
     type === "simple"
       ? `https://img.icons8.com/fluency/${imgSize}/instagram-new.png`
-      : `https:/img.icons8.com/bubbles/${imgSize}/instagram-new--v2.png`;
+      : `https://img.icons8.com/bubbles/${imgSize}/instagram-new--v2.png`;
   const facebookUrl =
     type === "simple"
       ? `https://img.icons8.com/fluency/${imgSize}/facebook-new.png`
