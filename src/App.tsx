@@ -14,6 +14,7 @@ import Navbar from "./components/Navbar/Navbar";
 
 import "./App.css";
 import Footer from "./components/Footer/Footer";
+import PageNotFound from "./views/PageNotFound/PageNotFound";
 
 const App: React.FC = () => {
   const ScrollToTop = () => {
@@ -35,6 +36,7 @@ const App: React.FC = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/menu" element={<Menu />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
     </>

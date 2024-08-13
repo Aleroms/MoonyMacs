@@ -37,6 +37,9 @@
 .banner-menu {
   background-image: url("/banner/banner-menu-desktop.jpg");
 }
+.banner-notFound {
+  background-image: url("/banner/banner-menu-desktop.jpg");
+}
 .banner h1 {
   font-size: 5.625rem;
   text-shadow: -2px 3px 6px rgba(51, 51, 51, 0.54);

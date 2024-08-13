@@ -4,7 +4,7 @@ import Logo from "../Logo/LogoText";
 import "./Banner.css";
 
 interface BannerProps {
-  page: "home" | "about" | "contact" | "gallery" | "menu";
+  page: "home" | "about" | "contact" | "gallery" | "menu" | "notFound";
   title?: string;
 }
 
@@ -39,7 +39,8 @@ const Banner: React.FC<BannerProps> = ({ page, title }) => {
       {(page === "about" ||
         page === "contact" ||
         page === "gallery" ||
-        page === "menu") && (
+        page === "menu" ||
+        page === "notFound") && (
         <div className="banner-content">
           <h1>{title}</h1>
         </div>
