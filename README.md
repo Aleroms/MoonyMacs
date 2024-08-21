@@ -1,4 +1,7 @@
 # To the Moon and Macs
+
+![live site](https://moonymacs.com)
+
 Welcome To the Moon and Macs, a stellar macaron bakery that launched in May 2021 and proudly serves the High Desert and beyond. Built on a foundation of passion, creativity, and the drive to share delectable treats, we are dedicated to bringing joy to every corner of our galaxy. Each macaron is crafted with the finest ingredients, ensuring an out-of-this-world experience in every bite. We deliver these sweets straight to your door, making it easier than ever to indulge in a piece of the stars.
 
 ## Technical Info
