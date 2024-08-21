@@ -41,7 +41,7 @@ const ContactForm: React.FC = () => {
     if (Object.keys(validationErrors).length === 0) {
       setIsSubmitted(true);
       // Here you can handle form submission, e.g., send data to an API
-      console.log("Form submitted:", formData);
+      // console.log("Form submitted:", formData);
     } else {
       setErrors(validationErrors);
     }

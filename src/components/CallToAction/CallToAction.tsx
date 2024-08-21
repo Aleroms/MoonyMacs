@@ -18,7 +18,7 @@ const CallToAction: React.FC = () => {
           center of out beloved treats.
         </p>
         <p>
-          Order now for a quick and easy pick-up or delivery, Your perfect
+          Order now for a quick and easy pick-up or meet-up, your perfect
           macaron moment is just a DM away!
         </p>
         {/* insert social media container here  */}

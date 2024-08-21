@@ -31,7 +31,10 @@ const SocialMedia: React.FC<SocialMediaProps> = ({ type, size }) => {
           alt="instagram"
         />
       </a>
-      <a href="https://www.instagram.com/moony_macs/" target="_blank">
+      <a
+        href="https://www.facebook.com/profile.php?id=61565034651026"
+        target="_blank"
+      >
         <img
           width={imgSize}
           height={imgSize}
