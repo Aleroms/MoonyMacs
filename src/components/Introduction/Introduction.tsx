@@ -14,8 +14,7 @@ const Introduction: React.FC = () => {
           treats, we are dedicated to bringing joy to every corner of our
           galaxy. Each macaron is crafted with the finest ingredients, ensuring
           an out-of-this-world experience in every bite. We deliver these sweets
-          straight to your door, making it easier than ever to indulge in a
-          piece of the stars.
+          straight to your taste-buds!
         </p>
         <p>
           Join us on this journey and experience the warmth and love that goes
